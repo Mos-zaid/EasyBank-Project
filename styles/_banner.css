@@ -1,0 +1,31 @@
+.banner{
+    padding-bottom: 5rem;
+}
+
+.banner__1st-column-background{
+    position: relative ;
+}
+.banner__1st-column-background img{
+    width: 100vw;
+}
+
+.banner__1st-column-background-overlay{
+    position: absolute;
+    top: 5rem;
+}
+
+.banner__2nd-column{
+    width: 92vw;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.banner__2nd-column-headline{
+    font-weight: 400;
+    color: var(--dark-blue);
+    line-height: 1.2;
+}
+
+.banner__2nd-column > p{
+    margin-bottom: 2.5rem;
+}
