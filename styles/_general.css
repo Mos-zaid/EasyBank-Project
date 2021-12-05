@@ -1,3 +1,13 @@
+:root{
+    --dark-blue :hsl(233, 26%, 24%);
+    --lime-green: hsl(136, 65%, 51%);
+    --bright-cyan: hsl(192, 70%, 51%);
+    --grayish-blue: hsl(233, 8%, 62%);
+    --light-grayish-blue: hsl(220, 16%, 96%);
+    --very-light-gray: hsl(0, 0%, 98%);
+    --white: hsl(0, 0%, 100%);
+}
+
 *{
     box-sizing: border-box;
 }
@@ -9,9 +19,40 @@ html {
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Public Sans', sans-serif;
+    background-color: var(--light-grayish-blue);
 }
 
 img {
     max-width: 100%;
     height: auto;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: var(--dark-blue);
+    font-weight: 400;
+}
+
+h1{
+    font-size: 2.53rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.29rem;
+    font-weight: normal;
+}
+
+h4{
+    font-size: 1.15rem;
+    font-weight: normal;
+}
+
+p{
+    color: var(--grayish-blue);
+    line-height: 1.5;
+    // font-size: 1.125rem;
 }

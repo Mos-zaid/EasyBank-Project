@@ -1,3 +1,22 @@
-.navlinks{
+.site-header__nav-links{
     background-color: var(--white);
+    display: none;
+}
+
+.site-header__btn{
+    display: none;
+}
+
+.site-header__wrapper{
+    display: flex;
+    width: 87%;
+    padding: 1.35rem 0;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header{
+    background-color: var(--white);
+    z-index: 10000;
 }

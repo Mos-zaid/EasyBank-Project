@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
-@import url(./styles/_variables.css);
 @import url(./styles/_general.css);
 @import url(./styles/_site-header.css);
 @import url(./styles/_layout.css);
-@import url(./styles/_typography.css);
 @import url(./styles/_banner.css);
 @import url(./styles/_btn.css);
 @import url(./styles/_about-easybank.css);
+@import url(./styles/_latest-article.css);
+@import url(./styles/_footer.css);

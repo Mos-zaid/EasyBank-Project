@@ -4,6 +4,7 @@
 
 .banner__1st-column-background{
     position: relative ;
+    z-index: -100;
 }
 .banner__1st-column-background img{
     width: 100vw;
@@ -11,7 +12,8 @@
 
 .banner__1st-column-background-overlay{
     position: absolute;
-    top: 5rem;
+    top: -30px;
+    z-index: -10;
 }
 
 .banner__2nd-column{

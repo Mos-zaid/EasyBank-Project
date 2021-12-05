@@ -6,6 +6,6 @@
 .about-easybank__4-col{
     padding-top: 1.8rem;
     display: grid;
-    grid-template-rows: repeat(1fr, 4);
+    grid-template-rows: repeat(4, 1fr);
     gap: 1.8rem 0px;
 }

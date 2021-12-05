@@ -1,0 +1,46 @@
+.headline{
+    padding-top: 4rem;
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.latest-article__4-col{
+    padding: 1.8rem 0 5rem 0;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+    // grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: max-content;
+    gap: 1.8rem 0px;
+    width: 93vw
+}
+
+.latest-article{
+    width: 96%;
+    border-radius: 10px;
+    background-color: var(--white);
+    padding-bottom: 2rem;
+}
+
+.latest-article img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.latest-article__container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.latest-article__author{
+    margin: 1.25rem 0;
+    color:  var(--grayish-blue);
+}
+
+.latest-article__headline{
+    margin: 5px 0;
+}
+
+.latest-article__content{
+    line-height: 1.25;
+}
