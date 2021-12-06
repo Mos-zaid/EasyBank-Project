@@ -28,7 +28,7 @@
 }
 
 .latest-article__container{
-    width: 85%;
+    width: 87%;
     margin: 0 auto;
 }
 
@@ -40,6 +40,16 @@
 .latest-article__headline{
     margin: 5px 0;
 }
+
+.latest-article__headline a{
+    font-size: 1.25rem;
+    font-weight: normal;
+    text-decoration: none;
+    color: var(--dark-blue);
+    font-weight: 400;
+
+}
+
 
 .latest-article__content{
     line-height: 1.25;
