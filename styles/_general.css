@@ -6,6 +6,8 @@
     --light-grayish-blue: hsl(220, 16%, 96%);
     --very-light-gray: hsl(0, 0%, 98%);
     --white: hsl(0, 0%, 100%);
+    --animate-duration: 1900ms;
+    // --animate-delay: 0.9s;
 }
 
 *{

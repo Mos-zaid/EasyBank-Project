@@ -3,3 +3,9 @@
     margin: 0px auto;
     text-align: center;
 }
+
+@media (min-width: 830px){
+    .container{
+        width: 85vw;
+    }    
+}

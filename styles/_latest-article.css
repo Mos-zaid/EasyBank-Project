@@ -54,3 +54,33 @@
 .latest-article__content{
     line-height: 1.25;
 }
+
+@media (min-width: 600px){
+    .latest-article__4-col{
+        // grid-template-rows: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 1fr;
+        gap: 0px 1rem;
+    }
+
+}
+
+
+@media (min-width: 1030px){
+    .headline{
+        padding-left: 7.5%;
+        text-align: left;
+    }
+
+    .latest-article__4-col{
+        width: 85vw;
+    }
+    
+    .latest-article__4-col{
+        // grid-template-rows: 1fr;
+        grid-template-columns: repeat(4, 1fr);
+        grid-auto-rows: 1fr;
+        gap: 0px 1rem;
+    }
+}
+

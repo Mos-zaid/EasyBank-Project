@@ -9,3 +9,31 @@
     grid-template-rows: repeat(4, 1fr);
     gap: 1.8rem 0px;
 }
+
+@media (min-width: 830px) {
+    .about-easybank{
+        z-index: -200;
+    }
+
+    
+    .about-easybank__4-col{
+        grid-template-rows: 1fr;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0px 1.8rem;
+        text-align: left;
+        // width: 90%;
+        margin: 0 auto;
+    }
+
+    .about-easybank h2{
+        text-align: left;
+    }
+
+    .about-easybank__subtitle{
+        text-align: left;
+        width: 650px;
+        font-size: 1.125rem;
+    }
+
+}
+
