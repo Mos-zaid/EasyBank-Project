@@ -22,7 +22,7 @@
         grid-template-columns: repeat(4, 1fr);
         gap: 0px 2.5rem;
         text-align: left;
-        // width: 90%;
+        /* width: 90%; */
         margin: 0 auto;
     }
 
