@@ -1,5 +1,5 @@
 .about-easybank{
-    background-color: var(--very-light-gray);
+    background-color: var(--light-grayish-blue);
     padding: 2.4rem 0;
 }
 
@@ -13,13 +13,14 @@
 @media (min-width: 830px) {
     .about-easybank{
         z-index: -200;
+        padding: 4.5rem 0;
     }
 
     
     .about-easybank__4-col{
         grid-template-rows: 1fr;
         grid-template-columns: repeat(4, 1fr);
-        gap: 0px 1.8rem;
+        gap: 0px 2.5rem;
         text-align: left;
         // width: 90%;
         margin: 0 auto;
@@ -27,12 +28,16 @@
 
     .about-easybank h2{
         text-align: left;
+        font-size: 2.375rem;
+        font-weight: 300;
+        margin-bottom: 1.8rem;
     }
 
     .about-easybank__subtitle{
         text-align: left;
         width: 650px;
-        font-size: 1.125rem;
+        font-size: 1.0925rem;
+        font-weight: 400;
     }
 
 }
